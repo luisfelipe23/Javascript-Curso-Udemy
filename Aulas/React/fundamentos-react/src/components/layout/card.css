@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.imagem {
+    position: absolute;
+    left: 796px;
+    top: 176px;
+}
+
+.titulo {
+    position: absolute;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 266px;
+    left: 170px;
+    top: -10px;
+}
+
+.retangulo1 {
+    position: absolute;
+    width: 1116px;
+    height: 600px;
+    left: 210px;
+    top: 60px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.retangulo2 {
+    position: absolute;
+    width: 558px;
+    height: 600px;
+    left: 210px;
+    top: 60px;
+
+    background: #00808e;
+
+    color: white;
+}
+
+.login-email {
+    display: flex;
+    position: absolute;
+    width: 410px;
+    height: 60px;
+    left: 280px;
+    top: 250px;
+    background-color: #FFFFFF;
+    border-radius: 70px;
+}
+
+.login-email input {
+    background: transparent;
+    width: 94%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.login-email ::placeholder {
+    position: relative;
+    text-align: center;
+    color: #3b3b3b;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.login-senha {
+    display: flex;
+    position: absolute;
+    width: 410px;
+    height: 60px;
+    left: 280px;
+    top: 350px;
+    background-color: #FFFFFF;
+    border-radius: 70px;
+}
+
+.login-senha input {
+    background: transparent;
+    width: 94%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.login-senha ::placeholder {
+    position: relative;
+    text-align: center;
+    color: #3b3b3b;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.conteudo .botao-entrar button {
+    border: none;
+    position: absolute;
+    width: 410px;
+    height: 60px;
+    left: 280px;
+    top: 488px;
+    background: #1B35BD;
+    border-radius: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
+
+    color: white;
+    outline-width: 0;
+}
+
+.conteudo .botao-entrar button:hover {
+    background-color: #14288a;
+    cursor: pointer;
+}
+
+.conteudo .login-ajuda h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: black;
+}
+
+.login-esquecer-senha {
+    cursor: pointer;
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 546px;
+    top: 420px;
+}
+
+.login-lembrar-senha {
+    cursor: pointer;
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 320px;
+    top: 420px;
+}
+
+.botao-selecionar button {
+    border: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 290px;
+    top: 438px;
+
+    background: #00808e;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    outline-width: 0;
+}
+
+.botao-selecionar button:hover {
+    background-color: white;
+    cursor: pointer;
+}
